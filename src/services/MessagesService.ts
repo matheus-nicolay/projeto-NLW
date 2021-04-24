@@ -7,7 +7,7 @@ interface IMessageCreate{
     text: string;
     user_id: string;
 }
-
+ 
 class MessagesService{
     private messagesRepository: Repository<Message>;
 
